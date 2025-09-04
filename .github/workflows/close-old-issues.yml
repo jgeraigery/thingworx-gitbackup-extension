@@ -6,7 +6,7 @@ jobs:
   close-stale-issues:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v5
+      - uses: actions/stale@v10
         with:
           days-before-issue-stale: 60  # Mark issues as stale after 60 days of inactivity
           days-before-issue-close: 30  # Close issues 30 days after being marked as stale
